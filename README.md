@@ -1,12 +1,13 @@
 # Graph
-Program ten służy do przedstawienia czegoś w formie graficznej (wykresu). Można zapisywać sobie w jakie dni i o jakich godzinach np.: przyjeżdża kurier, dzięki czemu możemy wtedy zauważyć na wykresie że w Czwartki przyjeżdża najczęściej o godzinie 10, a w piątki o godzinie 12. W zależności co do potrzeb program ten może się przydać.
+Program that help you easily keep track of thing. For example you can keep track of how often an event occur, like drinking a cup of coffee.
+Only thing you need to do is to press top left button, and that time will be saved in data file, soo later you could see a graph of your event you wanna to keep track of.
 
-![Obrazek pokazujący program #1]( https://i.imgur.com/1pSauzR.png)
-![Obrazek pokazujący program #2]( https://i.imgur.com/S02Y1Ge.png)
-### Działanie programu
-Program ma 3 przyciski. Pierwszy służy do dodania daty do naszego pliku „archiwum”, Drugi przycisk sumuje wszystkie daty z pliku i wyświetla je w jednym wykresie, Przycisk „Odśwież” służy do wczytania wybranych danych, dane wybieramy ustawiając miesiąc w opcjach pod trzecim przyciskiem. Niebieskie pole do zaznaczenia miesiąca daje nam trzy rodzaje wykresów: 1 wykres czyli wykres pokazujący najczęściej występującą godzinę. 2 wykres to wykres procentowy pokazujący najczęściej występujący dzień. Oraz wykres 3 który pokazuje nam ilość wystąpień danego dnia w miesiącu, 3 wykres może być porównany z innym miesiącem, wystarczy ustawić  inne miesiące w opcji Zielonej i Fioletowej pod przyciskiem „Odśwież”.
+### Data that user can see:
+- Times per day that event occur.
+- Times per month that event occur.
+- Wich day of week is the most common for event to occur.
+- What time is most common for event to occure.
 
-#### Info
-Plik .exe to plik z skompilowanym programem.<br/>
-Plik .cs to plik zawierający skrypt programu.<br/>
-Plik .txt to plik zawierający daty z których program wyświetla wykresy.
+Also you can sumary two graphs together, soo you will see if there are any changes.
+
+![app](https://github.com/RekenGit/VisitsCalendar/assets/72222392/f2d2f999-1d62-4f30-9c53-2de73acc3313)
